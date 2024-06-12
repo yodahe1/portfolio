@@ -1,0 +1,54 @@
+.myport{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.myport-title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.myport-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.myport-container img{
+    box-sizing: border-box;
+    width: 319px;
+    height: 180px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.myport-container img:hover{
+    transform: scale(1.10);
+    border: 1px solid aqua;
+    transition: 0.3s;
+}
+.myport_more img{
+    background-color: aqua;
+    border-radius: 15px;
+}
+.myport_more{
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 20px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor:pointer;
+
+}
+.myport_more:hover{
+    border:2px solid aqua;
+    gap: 30px;
+    transition: 0.6s;
+}
