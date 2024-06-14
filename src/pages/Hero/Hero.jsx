@@ -7,9 +7,13 @@ const Hero = () => {
       <div className="pro">
         <div className="left">
           <h1>
-            <span>I am Yodahe Meless </span>, Frontend web developer
+            <span>I am Yodahe Meless </span>, MERN stack web developer
           </h1>
-          <p> I am experienced in HTML, CSS, JS, REACT and NODE JS</p>
+          <p>
+            {" "}
+            I am experienced in HTML, CSS, JS, REACT, NODE JS, Express and
+            MongoDB
+          </p>
         </div>
         <div className="right">
           <img src={profileimg} alt="" />
@@ -17,7 +21,11 @@ const Hero = () => {
       </div>
 
       <div className="hero-action">
-        <div className="hero-connect">connect with me</div>
+        <div className="hero-connect">
+          <a href="/Mycontact" className="">
+            connect with me
+          </a>
+        </div>
         <div className="resume">My resume</div>
       </div>
     </div>
