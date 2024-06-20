@@ -4,6 +4,10 @@
     justify-content:space-between ;
     margin: 20px 100px;
     z-index: 999;
+    background-color: rgb(2, 38, 43);
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
     
 }
 .logo-container{
@@ -53,9 +57,56 @@
     border-radius: 50px;
     background: linear-gradient(90deg,rgb(6, 85, 85) 0.36%, rgb(0, 255, 255) 100%);
     transition: 0.5s;
-    cursor: pointer;
+    cursor: pointer; 
 
 }
 .nav-connect:hover{
     transform:scale(1.05)
 }
+.menu-close{
+    display: none;
+}
+.menu-bar{
+    display: none;
+}
+@media (Max-width:768px) {
+    .nav-connect{
+        display:none;
+    }
+    .navbar{
+        margin:20px 50px;
+    }
+    .menu-bar{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .menu-close{
+        display: block;
+        position: relative;
+        top: 32px;
+        left: 270px;
+     
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color:rgb(2, 38, 43) ;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right:-350px;
+    }
+     .nav-menu li a {
+        margin-left: 30px;
+    }
+    
+    
+    
+
+    
+} 
