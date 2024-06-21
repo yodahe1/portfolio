@@ -43,6 +43,14 @@ export const About = () => {
               {" "}
               <p>Node Js</p> <hr style={{ width: "50%" }} />
             </div>
+            <div className="about-skill">
+              {" "}
+              <p>Expres Js</p> <hr style={{ width: "60%" }} />
+            </div>
+            <div className="about-skill">
+              {" "}
+              <p>MongoDB</p> <hr style={{ width: "60%" }} />
+            </div>
           </div>
         </div>
       </div>

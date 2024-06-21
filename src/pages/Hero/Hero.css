@@ -94,3 +94,39 @@
 .resume:hover{
     border-color: rgb(0, 255, 13);
 }
+
+@media (Max-width:768px){
+    .pro{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .left{
+        padding-left: 30px;
+        padding-top: 50px;
+       
+        height: 200px;
+        align-items: center;
+        display: inline;
+        padding-right: 0;
+        width: 500px;}
+        
+    .right{
+        margin-top: 15px;
+        display: block;
+        padding: auto;
+    }
+    .right img{
+        padding: auto;
+        margin-top: 20px;
+        margin-right: 50%;
+    
+    }
+    .hero-container{
+        margin-bottom: 200px;
+    }
+    .hero-container h1{
+        font-size: 33px;
+    }
+
+}

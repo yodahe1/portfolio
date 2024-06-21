@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="right">
-          <img src={profileimg} alt="" />
+          <img src={profileimg} alt="yodahe's photo" />
         </div>
       </div>
 

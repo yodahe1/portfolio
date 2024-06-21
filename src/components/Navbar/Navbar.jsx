@@ -27,7 +27,10 @@ const Navbar = () => {
           </a>{" "}
         </h1>
       </div>
-      <img src={toggle} onClick={openMenu} alt="" className="menu-bar" />
+      <div className="menubar">
+        <img src={toggle} onClick={openMenu} alt="" className="menu-bar" />
+      </div>
+
       <div>
         <ul ref={menuRef} className="nav-menu">
           <img src={close} onClick={closeMenu} alt="" className="menu-close" />

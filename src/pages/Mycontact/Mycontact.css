@@ -96,3 +96,13 @@
     transition: 0.3s;
 
 }
+@media (Max-width:768px){
+    .contact{
+        margin: 80px 20px;
+        margin-bottom: 200px;
+    }
+    .contact-section{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+}

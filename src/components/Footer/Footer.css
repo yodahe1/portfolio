@@ -79,3 +79,19 @@
     gap: 50px;
     margin-bottom: 50px;
 }
+@media (Max-width:768px){
+    .footer{
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;}
+    .subscribe{
+        font-size: 14px;
+        padding: 9px 33px;
+    }
+    .email-input{
+        padding: 0px 19px;
+        padding-right: 10px;
+    }
+       
+    
+}

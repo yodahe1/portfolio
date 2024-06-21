@@ -63,3 +63,23 @@
     height: 400px;
     border-radius: 30px;
 }
+@media (Max-width:768px){
+    .about-section{
+        gap: 42px;
+        
+    }
+    .about{
+        margin: 80px 25px;
+        margin-bottom: 200px;
+    }
+    .about-left img{
+        width: 232px;
+        height: 316px;
+    }
+    .about-skill{
+        gap: 0px;
+    }
+    .about-skill p{
+        font-size: 15px;
+    }
+}
