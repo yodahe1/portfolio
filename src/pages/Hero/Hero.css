@@ -158,7 +158,7 @@
         margin-bottom: 200px;
     }
     .hero-container h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     .hero-container P{
         max-width: 400px;
@@ -177,6 +177,16 @@
     .hero-action{
         max-width: 425px;
         font-size: 15px;
+    }
+    .hero-connect{
+        padding: 12px 30px;
+       
+    
+    }
+    .resume{
+        padding: 12px 30px;
+       
+    
     }
     
 

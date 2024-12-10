@@ -14,16 +14,21 @@ export const About = () => {
         <div className="about-right">
           <div className="about-pra">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-              est temporibus tenetur distinctio unde nostrum? Culpa debitis
-              autem, delectus iure nulla perspiciatis est quasi. Reprehenderit
-              quisquam officiis quas magni explicabo.
+              As a passionate MERN stack web developer, I specialize in creating
+              dynamic, responsive, and user-friendly web applications. With
+              expertise in MongoDB, Express.js, React, and Node.js, I excel at
+              crafting seamless full-stack solutions that deliver exceptional
+              performance. My approach combines clean code practices with
+              innovative problem-solving to ensure each project is both
+              efficient and scalable.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-              deleniti adipisci excepturi iste, aspernatur placeat id, sapiente
-              est, rerum eius voluptate totam suscipit. Omnis eius, nam iste
-              dicta perspiciatis dolore!
+              Beyond coding, I am deeply committed to staying at the forefront
+              of web development trends. Whether collaborating with a team or
+              working independently, I thrive on transforming ideas into
+              functional digital experiences that leave a lasting impact. My
+              goal is to continuously enhance my skills and contribute to
+              projects that make a difference.
             </p>
           </div>
           <div className="about-skills">

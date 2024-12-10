@@ -85,3 +85,12 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (Max-width:425px){
+    .services{
+        margin: 80px 20px;
+        margin-bottom: 200px;
+    }
+    .service-container{
+        grid-template-columns: 1fr;
+    }
+}

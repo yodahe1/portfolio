@@ -61,3 +61,12 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (Max-width:425px){
+    .myport{
+        margin: 80px 20px;
+        margin-bottom: 200px;
+    }
+    .myport-container{
+        grid-template-columns: 1fr;
+    }
+}

@@ -83,3 +83,20 @@
         font-size: 15px;
     }
 }
+@media (Max-width:425px){
+    .about-section{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        
+    
+    }
+    .about-pra{
+       
+        font-size: 14px;
+       
+    }
+    
+       
+
+}

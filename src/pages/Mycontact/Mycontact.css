@@ -106,3 +106,28 @@
         gap: 60px;
     }
 }
+@media (Max-width:425px){
+    .contact{
+        margin: 80px 20px;
+        margin-bottom: 200px;
+    }
+    .contact-section{
+        flex-direction: column-reverse;
+        gap: 60px;
+        max-width: 400px;
+    }
+    .contact-right input{
+       
+        max-width: 350px;
+        height: 70px;
+        font-size: 17px;
+    }
+    .contact-right textarea{
+       
+        font-size: 17px;
+    
+    
+    }
+  
+
+}
