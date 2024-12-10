@@ -95,3 +95,45 @@
        
     
 }
+@media (Max-width:425px){
+    
+   
+    .footer-top-left img{
+        width: 40px;
+        border-radius: 20px;
+    }
+   
+        
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .email-input{
+       max-width: 200px;
+       padding: 0px 5px;
+        padding-right: 5px;
+        gap: 3px;
+       
+    }
+    .footer-top-right input{
+       max-width: fit-content;
+       font-size: 10px;
+    
+    }
+    .footer-top-right input{
+       max-width: 100px;
+      
+    }
+    .footer-top-right{
+        margin-top: 10px;
+    }
+    .footer-bottom{
+        font-size: 12px;
+    }
+    
+
+    
+       
+    
+}
